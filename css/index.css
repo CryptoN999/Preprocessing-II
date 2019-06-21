@@ -168,6 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.container header .top-nav .home-nav {
+  margin-left: 400px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container header .top-nav .home-nav .bigitem {
+  flex: 2 0 0;
+}
+.container header .top-nav .home-nav .bigitem .smallitem {
+  flex: 1 0 0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -226,9 +240,11 @@ img {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  background: #59B2AB;
+  background: #49938D;
   width: 190px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  color: white;
+  font-size: 1.9rem;
 }
